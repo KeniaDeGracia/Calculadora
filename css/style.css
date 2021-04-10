@@ -33,7 +33,7 @@ center{
 
     box-shadow:5px 5px 10px 10px #999;
 }
-#operaciones{
+#consola{
 	position:relative;
 	margin:30px auto;
 	padding:6%;
@@ -53,12 +53,10 @@ center{
 }
 #calculadora ul li{
 	float:left;
-	margin:10.5px;
+	margin:10px; /*.5*/
     padding:25px;
 	width:15px;
 
-    background:rgb(44, 44, 44);
-	/*background:rgb(110, 110, 110);*/
 	border:1px solid #aaa;
 	border-radius:5px;
 	box-shadow:5px 5px 10px rgb(0, 0, 0);
@@ -68,6 +66,18 @@ center{
 	cursor:pointer;	
     color: white;
     font-size:16px;
+}
+.numero{
+	background:rgb(44, 44, 44);
+}
+.signo{
+	background:rgb(130, 0, 0);
+}
+.igual{
+	background:rgb(34, 113, 179);
+}
+.decimal{
+	background:rgb(80, 80, 80);
 }
 #calculadora ul li:hover{
 	background:rgb(110, 110, 110);
