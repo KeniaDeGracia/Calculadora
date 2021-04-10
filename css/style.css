@@ -35,8 +35,8 @@ center{
 }
 #consola{
 	position:relative;
-	margin:30px auto;
-	padding:6%;
+	margin:25px auto;
+	padding:8%;
     width:70%;
 	
 	border:1px solid #ccc;
@@ -53,7 +53,7 @@ center{
 }
 #calculadora ul li{
 	float:left;
-	margin:10px; /*.5*/
+	margin:10px ; 
     padding:25px;
 	width:15px;
 
